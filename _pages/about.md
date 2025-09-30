@@ -16,8 +16,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a final year Ph.D. candidate in Computer Science at the University of California, Irvine, advised by [Professor Padhraic Smyth](https://www.ics.uci.edu/~smyth/). Before joining UCI, I received my [MPhil in Machine Learning](https://www.mlmi.eng.cam.ac.uk/) from the Engineering Department of the University of Cambridge; my thesis was supervised by [Professor Carl E. Rasmussen](https://mlg.eng.cam.ac.uk/carl/). I hold a BSc (Hons) in Mathematics and Statistics from the University of Edinburgh.
+I am a final year Ph.D. candidate in Computer Science at the University of California, Irvine, advised by [Professor Padhraic Smyth](https://www.ics.uci.edu/~smyth/). I received my [MPhil in Machine Learning](https://www.mlmi.eng.cam.ac.uk/) from the Engineering Department of the University of Cambridge; my thesis was supervised by [Professor Carl E. Rasmussen](https://mlg.eng.cam.ac.uk/carl/). I hold a First-Class BSc (Hons) in Mathematics and Statistics from the University of Edinburgh.
 
-My research has been focusing on general probabilistic machine learning methods, such as probabilistic modeling of continuous-time event sequences and machine learning for healthcare, supported by an [HPI Fellowship](https://hpi.ics.uci.edu/students/), an [NIH Grant](https://www.ics.uci.edu/community/news/view_news?id=2090), and a CS Department Dean's Fellowship.
+My research has been focusing on deep generative models and probabilistic machine learning, such as probabilistic modeling of continuous-time event sequences (e.g., transformers, state-space models) and machine learning for healthcare. I appreciate the funding support from [HPI Fellowship](https://hpi.ics.uci.edu/students/), [NIH Grant](https://www.ics.uci.edu/community/news/view_news?id=2090), and CS Department Dean's Fellowship.
 
-In summer 2025, I was a [Google](www.google.com) PhD Software Engineer intern, working on AI data for LLM post-training and evaluation. I also interned as an AI research scientist at [GE HealthCare](https://www.gehealthcare.com/) in 2024, and have lovely memories for my internships at [Goldman Sachs](https://www.goldmansachs.com/) in 2021 (in one of my fav cities, London), and at [Tencent](https://www.tencent.com/) in 2019 (in my hometown Shenzhen).
+
+I worked on AI data for LLM post-training and evaluation in summer 2025, during the [Google](www.google.com) PhD Software Engineer internship. I also interned as an AI research scientist at [GE HealthCare](https://www.gehealthcare.com/) in 2024, and have lovely memories for interning at [Goldman Sachs](https://www.goldmansachs.com/) (London, 2021), and at [Tencent](https://www.tencent.com/) (Shenzhen, 2019).
+
+**Reviewer:** NeurIPS, ICML, ICLR, AISTATS, JMLR.\
+**Open Source Project Contribution:** [EasyTPP](https://github.com/ant-research/EasyTemporalPointProcess/pull/48) for temporal point processes.\
+Resume/references/go-link upon request :)
