@@ -21,7 +21,7 @@ I am a final year Ph.D. candidate in Computer Science at the University of Calif
 My research has been focusing on deep generative models and probabilistic machine learning, such as probabilistic modeling of continuous-time event sequences (e.g., transformers, state-space models) and machine learning for healthcare. I appreciate the funding support from [HPI Fellowship](https://hpi.ics.uci.edu/students/), [NIH Grant](https://www.ics.uci.edu/community/news/view_news?id=2090), and CS Department Dean's Fellowship.
 
 
-I worked on AI data for LLM post-training and evaluation in summer 2025, during the [Google](www.google.com) PhD Software Engineer internship. I also interned as an AI research scientist at [GE HealthCare](https://www.gehealthcare.com/) in 2024, and have lovely memories for interning at [Goldman Sachs](https://www.goldmansachs.com/) (London, 2021), and at [Tencent](https://www.tencent.com/) (Shenzhen, 2019).
+I worked on AI data for LLM post-training and evaluation in summer 2025, during the [Google](https://www.google.com) PhD Software Engineer internship. I also interned as an AI research scientist at [GE HealthCare](https://www.gehealthcare.com/) in 2024, and have lovely memories for interning at [Goldman Sachs](https://www.goldmansachs.com/) (London, 2021), and at [Tencent](https://www.tencent.com/) (Shenzhen, 2019).
 
 **Reviewer:** NeurIPS, ICML, ICLR, AISTATS, JMLR.\
 **Open Source Project Contribution:** [EasyTPP](https://github.com/ant-research/EasyTemporalPointProcess/pull/48) for temporal point processes.\
