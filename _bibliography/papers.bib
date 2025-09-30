@@ -1,11 +1,11 @@
-@article{chang2024deep,
-  title={Deep Linear Hawkes Processes},
+@inproceedings{chang2025deep,
+  title={Deep Continuous-Time State Space Models for Marked Event Sequences},
   author={Chang*, Yuxin and Boyd*, Alex and Xiao, Cao and Kass-Hout, Taha and Bhatia, Parminder and Smyth, Padhraic and Warrington, Andrew},
-  year={2024},
-  arxiv={2412.19634},
-  abstract={Marked temporal point processes (MTPPs) are used to model sequences of different types of events with irregular arrival times, with broad applications ranging from healthcare and social networks to finance. We address shortcomings in existing point process models by drawing connections between modern deep state-space models (SSMs) and linear Hawkes processes (LHPs), culminating in an MTPP that we call the deep linear Hawkes process (DLHP). The DLHP modifies the linear differential equations in deep SSMs to be stochastic jump differential equations, akin to LHPs. After discretizing, the resulting recurrence can be implemented efficiently using a parallel scan. This brings parallelism and linear scaling to MTPP models. This contrasts with attention-based MTPPs, which scale quadratically, and RNN-based MTPPs, which do not parallelize across the sequence length. We show empirically that DLHPs match or outperform existing models across a broad range of metrics on eight real-world datasets. Our proposed DLHP model is the first instance of the unique architectural capabilities of SSMs being leveraged to construct a new class of MTPP models.},
-  abbr={Preprint},
-  journal={Under conference review, },
+  booktitle={The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS), To Appear, },
+  year={2025},
+  abstract={Marked temporal point processes (MTPPs) model sequences of events occurring at irregular time intervals, with wide-ranging applications in fields such as healthcare, finance and social networks. We propose the state-space point process (S2P2), a novel and performant model that leverages techniques derived for modern deep state-space models (SSMs) to overcome limitations of existing MTPP models, while simultaneously imbuing strong inductive biases for continuous-time event sequences that other discrete sequence models (i.e., RNNs, transformers, SSMs) do not capture. Inspired by the classical linear Hawkes processes, we propose an architecture that interleaves stochastic jump differential equations with nonlinearities to create a highly expressive intensity-based MTPP model, without the need for restrictive parametric assumptions for the intensity. This novel scheme admits efficient inference with a parallel scan, bringing linear complexity and sublinear scaling while retaining expressivity to MTPPs. Empirically, S2P2 achieves state-of-the-art predictive likelihoods across eight real-world datasets, delivering an average improvement of 33% over the best existing approaches.},
+  abbr={Conference},
+  add={<span style="color:#FF7F50"> <b> [Spotlight Presentation] </b> </span>}
 }
 
 @inproceedings{chang2024probabilistic,
