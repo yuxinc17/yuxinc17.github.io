@@ -24,4 +24,4 @@ My research has been focusing on deep generative models and probabilistic machin
 I worked on AI data for LLM post-training and evaluation in summer 2025, during the [Google](https://www.google.com) PhD Software Engineer internship. I also interned as an AI Research Scientist at [GE HealthCare](https://www.gehealthcare.com/) in 2024, and have lovely memories for interning at [Goldman Sachs](https://www.goldmansachs.com/) (London, 2021) and [Tencent](https://www.tencent.com/) (Shenzhen, 2019).
 
 **Reviewer:** NeurIPS, ICML, ICLR, AISTATS, JMLR.\
-**Open Source Project Contribution:** [EasyTPP](https://github.com/ant-research/EasyTemporalPointProcess/pull/48) for temporal point processes.
+**Open Source Project Contribution:** EasyTPP ([link1](https://github.com/ant-research/EasyTemporalPointProcess/pull/48), [link2](https://github.com/ant-research/EasyTemporalPointProcess/pull/73/)) for marked temporal point processes.
