@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a final year Ph.D. candidate in Computer Science at the University of California, Irvine, advised by [Professor Padhraic Smyth](https://www.ics.uci.edu/~smyth/). I received my [MPhil in Machine Learning](https://www.mlmi.eng.cam.ac.uk/) from the Engineering Department of the University of Cambridge; my thesis was supervised by [Professor Carl E. Rasmussen](https://mlg.eng.cam.ac.uk/carl/). I hold a First-Class BSc (Hons) in Mathematics and Statistics from the University of Edinburgh.
+I am a final year Ph.D. candidate in Computer Science at the University of California, Irvine, advised by [Professor Padhraic Smyth](https://www.ics.uci.edu/~smyth/). I received my [MPhil in Machine Learning and Machine Intelligence](https://www.mlmi.eng.cam.ac.uk/) from the Engineering Department of the University of Cambridge; my thesis was supervised by [Professor Carl E. Rasmussen](https://mlg.eng.cam.ac.uk/carl/). I hold a First-Class BSc (Hons) in Mathematics and Statistics from the University of Edinburgh.
 
 My research has been focusing on deep generative models and probabilistic machine learning, such as probabilistic modeling of continuous-time event sequences (e.g., transformers, state space models) and machine learning for healthcare. I appreciate the funding support from an [HPI Fellowship](https://hpi.ics.uci.edu/students/), an [NIH Grant](https://www.ics.uci.edu/community/news/view_news?id=2090), and a CS Department Dean's Fellowship.
 
