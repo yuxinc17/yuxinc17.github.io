@@ -1,10 +1,20 @@
+@inproceedings{adler2026calibration,
+  title={Beyond Accuracy: Are Time Series Foundation Models Well-Calibrated?},
+  author={Adler, Coen and Chang, Yuxin and Abdi, Samar and Draxler, Felix and Smyth, Padhraic},
+  booktitle={Proceedings of The Fourteenth International Conference on Learning Representations (ICLR), To Appear, },
+  year={2026},
+  abstract={The recent development of foundation models for time series data has generated considerable interest in using such models across a variety of applications. Although foundation models achieve state-of-the-art predictive performance, their calibration properties remain relatively underexplored, despite the fact that calibration can be critical for many practical applications. In this paper, we investigate the calibration-related properties of five recent time series foundation models and two competitive baselines. We perform a series of systematic evaluations assessing model calibration (i.e., over- or under-confidence), effects of varying prediction heads, and calibration under long-term autoregressive forecasting. We find that time series foundation models are consistently better calibrated than baseline models and tend not to be either systematically over- or under-confident, in contrast to the overconfidence often seen in other deep learning models.},
+  abbr={ICLR},
+  pdf={https://openreview.net/pdf?id=nGBN7UjHcy},
+}
+
 @inproceedings{chang2025deep,
   title={Deep Continuous-Time State-Space Models for Marked Event Sequences},
   author={Chang*, Yuxin and Boyd*, Alex and Xiao, Cao and Kass-Hout, Taha and Bhatia, Parminder and Smyth, Padhraic and Warrington, Andrew},
   booktitle={The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
   year={2025},
   abstract={Marked temporal point processes (MTPPs) model sequences of events occurring at irregular time intervals, with wide-ranging applications in fields such as healthcare, finance and social networks. We propose the state-space point process (S2P2) model, a novel and performant model that leverages techniques derived for modern deep state-space models (SSMs) to overcome limitations of existing MTPP models, while simultaneously imbuing strong inductive biases for continuous-time event sequences that other discrete sequence models (i.e., RNNs, transformers) do not capture. Inspired by the classical linear Hawkes processes, we propose an architecture that interleaves stochastic jump differential equations with nonlinearities to create a highly expressive intensity-based MTPP model, without the need for restrictive parametric assumptions for the intensity. Our approach enables efficient training and inference with a parallel scan, bringing linear complexity and sublinear scaling while retaining expressivity to MTPPs. Empirically, S2P2 achieves state-of-the-art predictive likelihoods across eight real-world datasets, delivering an average improvement of 33% over the best existing approaches.},
-  abbr={Conference},
+  abbr={NeurIPS},
   pdf={https://openreview.net/pdf?id=74SvE2GZwW},
   code={https://github.com/UCIDataLab/state_space_point_process},
   slides={https://neurips.cc/media/neurips-2025/Slides/119744_0MjGwdg.pdf},
@@ -18,53 +28,54 @@
   booktitle={The 1st ICML Workshop on Foundation Models for Structured Data},
   year={2025},
   abstract={Recent development of foundation models for time series data has generated considerable interest in using such models across a variety of applications. Although they achieve state-of-theart predictive performance, the ability to produce well-calibrated probabilistic distributions is critical for practical applications and is relatively underexplored. In this paper, we investigate the calibration-related properties of five recent time series foundation models and two competitive baselines. We perform systematic evaluations and identify significant variation in calibration performances across models.},
-  abbr={Workshop},
+  abbr={ICML},
   pdf={https://openreview.net/pdf?id=yeJlWzy8pV},
 }
 
 @inproceedings{chang2024probabilistic,
   title={Probabilistic Modeling for Sequences of Sets in Continuous-Time},
   author={Chang, Yuxin and Boyd, Alex and Smyth, Padhraic},
-  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  booktitle={Proceedings of The 27th International Conference on Artificial Intelligence and Statistics (AISTATS)},
   pages={4357--4365},
   year={2024},
   abstract={Neural marked temporal point processes have been a valuable addition to the existing toolbox of statistical parametric models for continuous-time event data. These models are useful for sequences where each event is associated with a single item (a single type of event or a “mark”) -- but such models are not suited for the practical situation where each event is associated with a set of items. In this work, we develop a general framework for modeling set-valued data in continuous-time, compatible with any intensity-based recurrent neural point process model. In addition, we develop inference methods that can use such models to answer probabilistic queries such as “the probability of item 𝐴 being observed before item 𝐵,” conditioned on sequence history. Computing exact answers for such queries is generally intractable for neural models due to both the continuous-time nature of the problem setting and the combinatorially-large space of potential outcomes for each event. To address this, we develop a class of importance sampling methods for querying with set-based sequences and demonstrate orders-of-magnitude improvements in efficiency over direct sampling via systematic experiments with four real-world datasets. We also illustrate how to use this framework to perform model selection using likelihoods that do not involve one-step-ahead prediction.},
   pdf={https://proceedings.mlr.press/v238/chang24a.html},
-  abbr={Conference},
+  abbr={AISTATS},
   add={<span style="color:#FF7F50"> <b> [Oral Presentation] </b> </span>}
 }
 
 @inproceedings{boyd2023inference,
   title={Inference for Mark-Censored Temporal Point Processes},
   author={Boyd, Alex and Chang, Yuxin and Mandt, Stephan and Smyth, Padhraic},
-  booktitle={Uncertainty in Artificial Intelligence (UAI)},
+  booktitle={Proceedings of The Thirty-Ninth Conference on Uncertainty in Artificial Intelligence (UAI)},
   pages={226--236},
   year={2023},
   organization={PMLR},
   abstract={Marked temporal point processes (MTPPs) are a general class of stochastic models for modeling the evolution of events of different types (“marks”) in continuous time. These models have broad applications in areas such as medical data monitoring, financial prediction, user modeling, and communication networks. Of significant practical interest in such problems is the issue of missing or censored data over time. In this paper, we focus on the specific problem of inference for a trained MTPP model when events of certain types are not observed over a period of time during prediction. We introduce the concept of mark-censored sub-processes and use this framework to develop a novel marginalization technique for inference in the presence of censored marks. The approach is model-agnostic and applicable to any MTPP model with a well-defined intensity function. We illustrate the flexibility and utility of the method in the context of both parametric and neural MTPP models, with results across a range of datasets including data from simulated Hawkes processes, self-correcting processes, and multiple real-world event datasets.},
   pdf={https://proceedings.mlr.press/v216/boyd23a.html},
-  abbr={Conference},
+  abbr={UAI},
   add={<span style="color:#FF7F50"> <b> [Spotlight Presentation] </b> </span>}
 }
 
 @inproceedings{boyd2023probabilistic,
   title={Probabilistic Querying of Continuous-Time Event Sequences},
   author={Boyd, Alex and Chang, Yuxin and Mandt, Stephan and Smyth, Padhraic},
-  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  booktitle={Proceedings of The 26th International Conference on Artificial Intelligence and Statistics (AISTATS)},
   pages={10235--10251},
   year={2023},
   organization={PMLR},
   abstract={Continuous-time event sequences, i.e., sequences consisting of continuous time stamps and associated event types (“marks”), are an important type of sequential data with many applications, e.g., in clinical medicine or user behavior modeling. Since these data are typically modeled in an autoregressive manner (e.g., using neural Hawkes processes or their classical counterparts), it is natural to ask questions about future scenarios such as “what kind of event will occur next” or “will an event of type 𝐴 occur before one of type 𝐵.” Addressing such queries with direct methods such as naive simulation can be highly inefficient from a computational perspective. This paper introduces a new typology of query types and a framework for addressing them using importance sampling. Example queries include predicting the 𝑛th event type in a sequence and the hitting time distribution of one or more event types. We also leverage these findings further to be applicable for estimating general “𝐴 before 𝐵” type of queries. We prove theoretically that our estimation method is effectively always better than naive simulation and demonstrate empirically based on three real-world datasets that our approach can produce orders of magnitude improvements in sampling efficiency compared to naive methods.},
   pdf={https://proceedings.mlr.press/v206/boyd23a.html},
-  abbr={Conference},
+  abbr={AISTATS},
+
 }
 
 @inproceedings{do2023fair,
   title={Fair Survival Time Prediction via Mutual Information Minimization},
   author={Do, Hyungrok and Chang, Yuxin and Cho, Yoon Sang and Smyth, Padhraic and Zhong, Judy},
-  booktitle={Machine Learning for Healthcare (MLHC)},
+  booktitle={Proceedings of the 8th Machine Learning for Healthcare Conference (MLHC)},
   year={2023},
   abstract={Survival analysis is a general framework for predicting the time until a specific event occurs, often in the presence of censoring. Although this framework is widely used in practice, few studies to date have considered fairness for time-to-event outcomes, despite recent significant advances in the algorithmic fairness literature more broadly. In this paper, we propose a framework to achieve demographic parity in survival analysis models by minimizing the mutual information between predicted time-to-event and sensitive attributes. We show that our approach effectively minimizes mutual information to encourage statistical independence of time-to-event predictions and sensitive attributes. Furthermore, we propose four types of disparity assessment metrics based on common survival analysis metrics. Through experiments on multiple benchmark datasets, we demonstrate that by minimizing the dependence between the prediction and the sensitive attributes, our method can systematically improve the fairness of survival predictions and is robust to censoring.},
   pdf={https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/64d1a4a8a1b9d8404a35fc35/1691460776924/ID119_Research+Paper_2023.pdf},
-  abbr={Conference}
+  abbr={MLHC},
 }
